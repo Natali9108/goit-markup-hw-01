@@ -19,20 +19,42 @@ body {
   text-decoration: none;
 }
 
-.site-nav {
-  color: var(--primary-text-color);
-}
-
 .site-nav-main {
   color: var(--accent-color);
   text-decoration: none;
 }
+
+.site-nav-main:hover,
+.site-nav-main:focus {
+  color: var(--primary-text-color);
+}
+
+.site-nav {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--accent-color);
+}
+
 .link-email {
   color: var(--accent-color);
   text-decoration: none;
 }
 
+.link-email:hover,
+.link-email:focus {
+  color: var(--primary-text-color);
+}
+
 .link-phone {
   color: var(--secondary-text-color);
   text-decoration: none;
+}
+
+.link-phone:hover,
+.link-phone:focus {
+  color: var(--accent-color);
 }
